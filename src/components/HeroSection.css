@@ -1,0 +1,33 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.circular-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #4caf50;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.circular-profile img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .hero-section {
+        padding: 10px;
+    }
+    .circular-profile {
+        width: 80px;
+        height: 80px;
+    }
+}
